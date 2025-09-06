@@ -1,0 +1,26 @@
+[package]
+name = "green/soundsystem"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[server-dependencies]
+
+#main:
+
+#optional:
+
+[dev-dependencies]
+
+#main:
+
+#optional:
+
+
+[dependencies]
+
+#main:
+red = "red-blox/red@2.3.0" #secure signals and events
+ratelimit = "red-blox/ratelimit@1.0.1" #doesnt come with red for some reason
+
+#optional:

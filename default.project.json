@@ -1,0 +1,65 @@
+{
+  "name": "SoundSystem",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "PlayerCharacterDestroyBehavior": "Enabled",
+        "StreamingEnabled": false
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "$path": "src/ReplicatedStorage",
+
+      "Packages": {
+        "$path": "packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+
+      "$path": "src/ServerStorage",
+
+      "Sounds": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "VolumetricAudio": "Enabled"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        
+        "$path": "src/starterPlayer/starterPlayerScripts"
+      },
+
+
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        
+        "$path": "src/starterPlayer/StarterCharacterScripts"
+      }
+    }
+  }
+}
