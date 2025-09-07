@@ -1,10 +1,9 @@
 --!strict
 
 --[[
-    Initialize Modules.
+    Get SoundTable ready for server and client use.
 ]]
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-require(ReplicatedStorage.RedEvents)
 require(ReplicatedStorage.Common.Sounds)
