@@ -196,7 +196,7 @@ end
 --[[
 	Returns all sound groups that exist.
 	
-	Read-Only
+	Read-Only, Instance properties can be changed.
 
 	@return { [string]: SoundGroup } - A list of all SoundGroups.
 ]]
