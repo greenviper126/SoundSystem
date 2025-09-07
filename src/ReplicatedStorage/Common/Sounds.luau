@@ -1,5 +1,11 @@
 --!strict
 
+--[[
+	This Is designed to make playing sounds and setting them to sound groups much easier.
+	There Is also a Variance Function to help make sounds less repetitive.
+	Use cases for Variance include footsteps, interacting with objects, etc.
+]]
+
 type Dictionary<T> = { [string]: T }
 type SoundChildren = Dictionary<Dictionary<any>>
 
@@ -189,6 +195,8 @@ end
 
 --[[
 	Returns all sound groups that exist.
+	
+	Read-Only
 
 	@return { [string]: SoundGroup } - A list of all SoundGroups.
 ]]
@@ -299,7 +307,7 @@ end
 	@param minVolume number? - Minimum volume multiplier (default: 0.95).
 	@param maxVolume number? - Maximum volume multiplier (default: 1.05).
 
-	@return VarianceTable - Random options decided from the givin params.
+	@return VarianceTable - Random options decided from the given params.
 ]]
 function Sounds.Variance(minSpeed: number?, maxSpeed: number?, minVolume: number?, maxVolume: number?): VarianceTable
 	return {
