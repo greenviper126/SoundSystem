@@ -4,6 +4,8 @@
 	This class is local only.
 
 	Creates a button that the local player can see activated.
+
+	To help show how the Sound System Works.
 ]]
 
 local CollectionService = game:GetService("CollectionService")
