@@ -23,4 +23,6 @@ realm = "shared"
 red = "red-blox/red@2.3.0" #secure signals and events
 ratelimit = "red-blox/ratelimit@1.0.1" #doesnt come with red for some reason
 
+trove = "sleitnick/trove@1.5.0"
+
 #optional:

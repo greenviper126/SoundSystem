@@ -4,6 +4,7 @@
     "cSpell.words": [
         "Flipbook",
         "pcall",
-        "Psnr"
+        "Psnr",
+        "setmetatable"
     ]
 }
